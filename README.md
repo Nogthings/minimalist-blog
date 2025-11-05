@@ -4,6 +4,8 @@
 
 # Minimalist Blog
 
+![Banner](img/banner.png)
+
 A clean, modern, open-source blog built with React, TypeScript, and Tailwind CSS. Designed with a focus on readability, performance, and a straightforward development experience. Content is managed through Markdown files, making it ideal for developers and technical writers.
 
 ## ✨ Key Features
