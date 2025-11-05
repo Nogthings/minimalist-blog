@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimalist Blog</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/bash.min.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              'background': 'var(--color-background)',
+              'text-primary': 'var(--color-text-primary)',
+              'text-secondary': 'var(--color-text-secondary)',
+              'accent': 'var(--color-accent)',
+              'accent-hover': 'var(--color-accent-hover)',
+              'card': 'var(--color-card)',
+              'border': 'var(--color-border)',
+              'border-hover': 'var(--color-border-hover)',
+              'tag-bg': 'var(--color-tag-bg)',
+              'tag-text': 'var(--color-tag-text)',
+              'tag-bg-active': 'var(--color-tag-bg-active)',
+              'tag-text-active': 'var(--color-tag-text-active)',
+              'button-bg': 'var(--color-button-bg)',
+              'button-text': 'var(--color-button-text)',
+              'code-bg': 'var(--color-code-bg)',
+              'pre-bg': 'var(--color-pre-bg)',
+              'error': 'var(--color-error)',
+              'success': 'var(--color-success)',
+            },
+            typography: ({ theme }) => ({
+              DEFAULT: {
+                css: {
+                  '--tw-prose-body': 'var(--color-text-secondary)',
+                  '--tw-prose-headings': 'var(--color-text-primary)',
+                  '--tw-prose-links': 'var(--color-accent)',
+                  '--tw-prose-bold': 'var(--color-text-primary)',
+                  '--tw-prose-bullets': 'var(--color-accent)',
+                  '--tw-prose-hr': 'var(--color-border)',
+                  '--tw-prose-quotes': 'var(--color-text-secondary)',
+                  '--tw-prose-quote-borders': 'var(--color-accent)',
+                  '--tw-prose-code': 'var(--color-accent)',
+                  '--tw-prose-pre-bg': 'var(--color-pre-bg)',
+                  '--tw-prose-th-borders': 'var(--color-border)',
+                  '--tw-prose-td-borders': 'var(--color-border)',
+                },
+              },
+            }),
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-background text-text-primary">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

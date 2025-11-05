@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mastering-state-in-react",
+    "title": "Dominando el Estado en React con Hooks",
+    "author": "Jane Doe",
+    "date": "2024-07-21",
+    "tags": ["React", "JavaScript", "Frontend"],
+    "readingTime": 7,
+    "excerpt": "Profundiza en los Hooks de React como useState, useEffect y useReducer para gestionar el estado de tu aplicación de forma eficaz y escribir código más limpio y mantenible."
+  },
+  {
+    "id": "a-guide-to-modern-css",
+    "title": "Una Guía de CSS Moderno con Tailwind",
+    "author": "John Smith",
+    "date": "2024-07-18",
+    "tags": ["CSS", "Tailwind", "Diseño"],
+    "readingTime": 5,
+    "excerpt": "Explora el enfoque 'utility-first' de Tailwind CSS y aprende cómo puede acelerar tu proceso de desarrollo y ayudarte a construir diseños consistentes y responsivos."
+  },
+  {
+    "id": "typescript-for-beginners",
+    "title": "TypeScript para Principiantes",
+    "author": "Emily White",
+    "date": "2024-06-25",
+    "tags": ["TypeScript", "JavaScript", "Buenas Prácticas"],
+    "readingTime": 10,
+    "excerpt": "Aprende los conceptos básicos de TypeScript, incluyendo tipado estático, interfaces y genéricos, para escribir aplicaciones JavaScript más robustas y sin errores."
+  }
+]

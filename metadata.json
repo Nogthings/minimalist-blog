@@ -1,0 +1,5 @@
+{
+  "name": "Minimalist Blog",
+  "description": "A clean, minimalist blog application built with React and Tailwind CSS. It features posts with reading time, authors, tags, and includes filtering on the main page and a detailed view for each post.",
+  "requestFramePermissions": []
+}
